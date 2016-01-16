@@ -1,0 +1,440 @@
+
+.mention {
+ background: linear-gradient(160deg, rgba(243,33,176,0.25) , rgba(0, 0, 0, 0)) !important;
+}
+
+ 
+#messages .cm:nth-child(odd).mention {
+    background: linear-gradient(160deg, rgba(243,33,176,0.25) , rgba(0, 0, 0, 0)) !important;
+}
+
+.userDialogButtons .button {
+    background-color: #0E0E0E;
+}
+
+.userDialogInfo {
+    background:linear-gradient(160deg, rgb(2, 2, 2) , rgba(0, 0, 0, 0.3));
+}
+
+.userDialogButtons .button:hover {
+    background-color: #7a0099 !important;
+}
+
+.vid-hover-btn {
+    background: rgba(218, 77, 255, 0.5) !important;
+}
+
+#img {
+    background-image:url("http://i.4cdn.org/w/1449235459858.png") !important;
+}
+div#menu {
+    background-color: #cc6699 !important;
+    border-right:2px solid #660066; !important;
+}
+
+#progress {
+background-color: #A52A2A;
+-moz-box-shadow: 0px 1px 35px #F31C1C; 
+-webkit-box-shadow: 0px 1px 35px #F31C1C; 
+box-shadow: 0px 1px 35px #F31C1C;
+}
+
+.navbar {
+background:url("http://i.imgur.com/jHQkE8O.jpg")
+}
+
+.footer {
+    border-top: 2px solid #9932CC;
+    -moz-box-shadow: -400px -10px 70px #000000; 
+    -webkit-box-shadow: -4000px -10px 70px #000000; 
+    box-shadow: -400px -10px 70px #000000;
+}
+
+.header {
+   border-bottom: 2px solid #9932CC;    
+}
+
+button {
+    background: #a32979;
+}
+
+#btn-mute {
+    background-color: #B22222;
+}
+
+.app-right-selector.selected {
+    background-color: #da4dff;
+}
+
+.app-right-selector {
+    background-color: #020202;
+}
+/*default*/
+.uname.rank-0 {
+}
+    .icon-4513 { background: url("http://i.imgur.com/Wx1mxBn.png")
+ } 
+
+/*vip*/
+.uname.rank-1 {
+     color: #ff007e !important;   
+}
+/*rdj*/
+.uname.rank-2 {
+    color: #bf4080 !important;
+}
+/*d*/
+.uname.rank-3 {
+    color: #d88db4 !important;
+}
+/*b*/
+.uname.rank-4 {
+    color: #862d59 !important;
+}
+
+/*m*/
+.uname.rank-6 {
+    color: #ff3333 !important;
+}
+/*ch*/
+.uname.rank-7 {
+    color: #ff3333 !important;
+}
+/*h*/
+.uname.rank-8 {
+    color: #ff1ac4 !important;
+}
+/*a*/
+.uname.rank-10 {
+    color: #660033  !important;
+}
+.icon-rank-10 {
+ background: url("http://i.imgur.com/maMEu5h.png") !important;
+}
+div.notification .notif-title {
+    background-color: #36A100;!important;
+}
+
+div.notification .notif-content {
+    background: #020202 !important;
+}
+
+#ratingbuttons #wootcontainer {
+    background-color: #020202;
+}
+
+#ratingbuttons #grabcontainer {
+    background-color: #020202;
+}
+
+#ratingbuttons #mehcontainer {
+    background-color: #020202;
+}
+
+.active {
+    background-color: #5DC300;
+}
+
+ .promote-dialog-btn.selected-rank { 
+     background: #5DC300;
+ }
+ 
+ #notif-promote .fa-check {
+    color: #5DC300;
+}
+
+
+div.menu-tile:hover {
+    background-color: rgba(145, 145, 145, 0.5) !important
+}
+
+
+#ratingbuttons #btn-woot.active, #ratingbuttons #btn-meh.active {
+    background-color: #020202;
+}
+
+#app-right {
+    background: #0c0c0c;
+}
+
+#room-title {
+    content:url("http://i.imgur.com/eIcYIEd.png") !important;
+    margin-left: 30px;
+}
+
+#notif-mute .notif-title {
+    background: #5DC300;
+}
+
+.mute-dialog-btn:hover {
+    background-color: #5DC300;
+}
+.promote-dialog-btn:hover, #notif-promote:hover #ok-btn:hover {
+    background-color: #990098;
+}
+.btn-no:hover {
+    box-shadow: inset 0 -8px 0 0 rgb(255, 68, 0);
+    background-color: #990098;
+}
+.btn-yes:hover {
+    box-shadow: inset 0 -8px 0 0 rgba(58, 255, 0, 0.63);
+    background-color: #990098;
+}
+
+/*#player {
+   -webkit-animation: glow3 1.5s infinite alternate;
+   -moz-animation: glow3 1.5s infinite alternate;
+}*/
+/*// you meant this right? we didn't do it twice?*/
+#player {
+}
+
+.uname.rank {
+    color: white !important;
+}
+.uname.rank-0 {
+    color: white !important;
+}
+
+input[type=text] {
+    background: #000000;
+}
+
+.media-info>div>div {
+    background: rgba(163, 41, 121, 0.85);
+    font-weight: bold;
+    border: 0px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    padding: 2px;
+}
+
+.notification .notif-content {
+    background-color: #170F00 !important;
+}
+
+#volumePercent {
+ background: rgba(163, 41, 121, 0.79);
+ font-weight: bold;
+ border-radius: 5px;
+ -webkit-border-radius: 5px;
+ -moz-border-radius: 5px;
+ border: none;
+ padding: 2px;
+ right: -9px;
+ top: 15px;
+}
+
+#ratingbuttons #grab-playlists {
+    background-color: black;
+}
+
+#active-song .label, #active-song .title {
+ border-radius: 5px;
+ -webkit-border-radius: 5px;
+ -moz-border-radius: 5px;
+ border: none;
+ padding: 5px;
+ background: rgba(163, 41, 121, 0.89);
+ font-weight: bold;
+}
+
+p.username {
+ background: rgba(163, 41, 121, 0.85);
+ font-weight: bold;
+ margin-right: -2px;
+ margin-top: 1px;
+ border-radius: 5px;
+ -webkit-border-radius: 5px;
+ -moz-border-radius: 5px;
+ border: none;
+ padding: 2px;
+}
+
+#profile .username {
+    font-weight: bold;
+     border-radius: 5px;
+ -webkit-border-radius: 5px;
+ -moz-border-radius: 5px;
+ border: none;
+  padding: 1px;
+  background: rgba(163, 41, 121, 0.89);
+   text-align: center;
+}
+
+#level {
+    font-weight: bold;
+      border-radius: 5px;
+ -webkit-border-radius: 5px;
+ -moz-border-radius: 5px;
+ border: none;
+  background: rgba(163, 41, 121, 0.89);
+   text-align: center;
+}
+
+#chat {
+    background-image: url("http://i.imgur.com/O8x4CgX.png");
+    background-repeat: no-repeat;
+    background-position: 5em;
+}   
+
+.cbp-spmenu-left.cbp-spmenu-open {
+    background: url("http://i.imgur.com/xwF1L60.gif");
+    background-repeat: no-repeat;
+}
+
+div.menu-tile {
+    border-bottom: none !important; 
+}
+
+#time-left {
+    background: rgba(163, 41, 121, 0.79);
+    font-weight: bold;
+     border: 0px;
+ -webkit-border-radius: 7px;
+ -moz-border-radius: 7px;
+ border-radius: 7px;
+ top: 64px;
+ right: 415px;
+}
+.notif-title { 
+ background-color: #a32979 !important;
+}
+ 
+#showLeft {
+  background: rgba(163, 41, 121, 0.79);
+}
+
+.uk-progress-bar {
+  background: #da4dff;
+}
+
+.exp-meter {
+ background: #a32979;
+ -webkit-border-radius: 7px;
+ -moz-border-radius: 7px;
+ border-radius: 7px;
+ border: 0px;
+}
+
+#profile-settings {
+ background-color: rgba(163, 41, 121, 0.79);
+}
+
+
+/* NCS Loli Counter */
+#loli-counter {
+        position: absolute;
+    margin: 15px;
+    padding: 3px; 
+    background: rgba(0,0,0,0.6); 
+    font-size: 17px; 
+    font-family: arial, sans-serif;
+    border: 2px #DC80E1;
+    border-style: solid;
+    opacity: .3;
+    box-shadow: 0px 0px 30px #DC80E1;
+    -moz-box-shadow: 0px 0px 30px #DC80E1; 
+    -webkit-box-shadow: 0px 0px 30px #DC80E1; 
+}
+
+.announcement {
+    background: linear-gradient(60deg, rgba(243,33,176,0.25) , rgba(0, 0, 0, 0)), url('http://i.imgur.com/mwbUuPS.png') !important;
+    padding: 5px;
+    font-size: 17px;
+    font-family: Arial Black;
+    color: white;
+    border: rgba(243,33,176,0.25);
+    border-style: inset;
+    min-height: 45px;
+    word-wrap: break-word;
+    padding-right: 30px;
+    background-repeat: space;
+}
+
+#ratingbuttons #btn-woot.active {
+ box-shadow: 0px 0px 30px #4CAF50;
+ -moz-box-shadow: 0px 0px 30px #4CAF50;
+ -webkit-box-shadow: 0px 0px 30px #4CAF50;
+}
+
+#ratingbuttons #btn-meh.active {
+ box-shadow: 0px 0px 30px #F44336;
+ -moz-box-shadow: 0px 0px 30px #F44336;
+ -webkit-box-shadow: 0px 0px 30px #F44336;
+}
+
+#btn-woot:active {
+ box-shadow: 0px 0px 30px #4CAF50;
+ -moz-box-shadow: 0px 0px 30px #4CAF50;
+ -webkit-box-shadow: 0px 0px 30px #4CAF50; 
+}
+
+#btn-meh:active {
+  box-shadow: 0px 0px 30px #F44336;
+ -moz-box-shadow: 0px 0px 30px #F44336;
+ -webkit-box-shadow: 0px 0px 30px #F44336; 
+}
+
+#btn-grab:active {
+  box-shadow: 0px 0px 30px #2196F3;
+ -moz-box-shadow: 0px 0px 30px #2196F3;
+ -webkit-box-shadow: 0px 0px 30px #2196F3; 
+}
+
+#active-song {
+ line-height: 20px;
+}
+
+#level {
+  border-radius: 5px;
+ -webkit-border-radius: 5px;
+ -moz-border-radius: 5px;
+ border: none;
+  background: rgba(163, 41, 121, 0.89);
+   text-align: center;
+}
+
+#profile-data #level {
+ text-align: center;
+}
+
+#volume-settings {
+ right: 200px
+}
+
+#dj-history-button {
+ right: 380px;
+}
+
+#settings-autojoin {
+ right: 470px;
+}
+
+.media-info {
+ margin-left: -23px;
+ margin-top: 2px;
+}
+
+#profile #exp-details {
+ border: 0px;
+ -webkit-border-radius: 7px;
+ -moz-border-radius: 7px;
+ border-radius: 7px;
+}
+
+#profile #exp-bar {
+ border: 0px;
+ -webkit-border-radius: 7px;
+ -moz-border-radius: 7px;
+ border-radius: 7px;
+}
+
+p {
+ margin: 7px;
+}
+
+#profile .experience-box {
+ right: -3px;
+}
