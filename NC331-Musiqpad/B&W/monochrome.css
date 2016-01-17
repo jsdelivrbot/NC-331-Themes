@@ -20,3 +20,122 @@ background-image: url('http://i.imgur.com/SFxQJMr.gif');
   background-image: url("http://i.imgur.com/I2fzp67.jpg") !important;
   background-size: calc(100% - 400px) 100%;
 }
+
+.room-greet {
+   background: rgba(169,169,169,0.2);
+   border-left: 2px solid #B1B1B1
+}
+
+.mention {
+   background: rgba(197, 197, 197, 0.2);
+   border-left: 2px solid #B1B1B1
+}
+
+.mdi.msg {
+   color: #A0A0A0 !important;
+}
+
+.controls {
+   background: #020202;
+}
+
+.btn-grab .playlists-grab {
+   background: #020202;
+}
+
+#msg-in {
+   background: #020202;
+}
+
+.logo-dash {
+   background: #020202;
+}
+
+.dash {
+   border-bottom: 1px solid #444A59;
+   background: #0E0E0E;
+}
+
+.hist-sng {
+   background: #0E0E0E;
+}
+
+a{
+   color: #168E79;
+}
+
+a:hover {
+ color: #117766;
+ text-shadow: 0px 0px 7px #FFFFFF;
+}
+
+.image-toggle {
+   color: #168E79;
+}
+
+.greet-uname {
+   color: #168E79;
+}
+
+.btn-logo {
+   background: #2F3238;
+}
+
+#people-back .tray {
+   background: #0E0E0E;
+}
+
+.btn-upvote {
+   border-bottom: 2px solid #4CAF50;
+   color: #4CAF50;
+}
+
+.btn-upvote:not(.active):hover {
+   background: rgba(76,175,80,0.25);
+}
+
+.btn-upvote.active {
+   background: #4CAF50;
+   color: #020202;
+}
+
+.btn-grab {
+   color: #2196F3;
+   border-bottom: 2px solid #2196F3;
+}
+
+.btn-grab:not(.active):hover {
+   background: rgba(33,150,243,0.25);
+}
+
+.btn-grab.active {
+   background: #2196F3;
+   color: #020202;
+}
+
+.playlists-grab .pl-grab:not(.active):hover {
+   background: rgba(33,150,243,0.25);
+}
+
+.btn-grab .playlists-grab {
+   color: #2196F3;
+}
+
+.btn-snooze.active {
+   background: #925AFF;
+   color: #020202;
+}
+
+.btn-snooze {
+   border-bottom: 2px solid #925AFF;
+}
+
+.btn-downvote {
+   color: #C8303E;
+   border-bottom: 2px solid #C8303E;
+}
+
+.btn-downvote.active {
+    color: #020202;
+    background-color: #C8303E;
+}
