@@ -231,3 +231,28 @@ a:hover {
    color: #A526A5;
     font-weight: 700;
 }
+
+.modal-controls {
+   background: #171717;
+}
+
+.user-menu-content {
+   background: #060606;
+}
+
+.user-menu .arrow {
+   background: #424242;
+}
+
+.popover.bottom .arrow {
+   background: #424242
+}
+
+.user-menu .modal-ctrl:hover {
+   background: rgba(171, 171, 171, 0.25);
+}
+
+.loader {
+   border-top-color: #A9A9A9;
+   border-bottom-color: #A9A9A9;
+}
