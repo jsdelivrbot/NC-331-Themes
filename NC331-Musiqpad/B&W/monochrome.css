@@ -283,3 +283,11 @@ a:hover {
     border-top-color: #1E4805;
     border-bottom-color: #1E4805;
 }
+
+.autocomplete>ul>li.active {
+       background: #2A2A2A;
+}
+
+.autocomplete>ul>li {
+   background: #0C0C0C;
+}
