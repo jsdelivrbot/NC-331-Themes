@@ -226,3 +226,8 @@ a:hover {
    -webkit-filter: invert(100%);
     filter: invert(100%);
 }
+
+.cm.emote .umsg {
+   color: #A526A5;
+    font-weight: 700;
+}
