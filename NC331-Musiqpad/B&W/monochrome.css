@@ -222,19 +222,20 @@ a:hover {
    background-color: #208424;
 }
 
+.nav.btn-youtube {
+   -webkit-filter: grayscale(1);
+   filter: grayscale(1);
+}
+
 .mdi.mdi-play {
    content: url('http://i.imgur.com/ya0H2r0.png');
    width: 34px;
    margin-left: 4px;
-   -webkit-filter: grayscale(1);
-   filter: grayscale(1);
 }
 
 .mdi.mdi-play:active {
    -webkit-filter: invert(100%);
     filter: invert(100%);
-   -webkit-filter: grayscale(1);
-   filter: grayscale(1);
 }
 
 .cm.emote .umsg {
