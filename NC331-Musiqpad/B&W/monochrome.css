@@ -57,7 +57,8 @@ background-image: url('http://i.imgur.com/SFxQJMr.gif');
 }
 
 .yt-sng .nav, .hist-sng .nav {
-   background: #94959A;
+   background: #1B1B1B;
+   color: #88898C;
 }
 
 a{
@@ -203,10 +204,6 @@ a:hover {
 
 .lib-sng:first-child {
    background: rgba(173,173,173,0.2);
-}
-
-.hist-sng {
-   color: #94959A;
 }
 
 .settings-timestamp {
