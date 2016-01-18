@@ -57,8 +57,16 @@ background-image: url('http://i.imgur.com/SFxQJMr.gif');
 }
 
 .yt-sng .nav, .hist-sng .nav {
-   background: #1B1B1B;
+   background: #0E0E0E;
    color: #88898C;
+}
+
+.yt-sng {
+   background: #0E0E0E;
+}
+
+.hist-sng {
+   background: #0E0E0E;
 }
 
 a{
@@ -283,4 +291,8 @@ a:hover {
 
 .autocomplete>ul>li {
    background: #0C0C0C;
+}
+
+.lib-fdr.draghover {
+   background: #333333;
 }
