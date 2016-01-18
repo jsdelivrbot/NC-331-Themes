@@ -328,3 +328,7 @@ input.ban-reason, input.edit-playlist-name {
 #register {
     background: #060606;
 }
+
+::selection {
+   background: #E17844;
+}
