@@ -56,8 +56,8 @@ background-image: url('http://i.imgur.com/SFxQJMr.gif');
    background: #0E0E0E;
 }
 
-.hist-sng {
-   background: #0E0E0E;
+.yt-sng .nav, .hist-sng .nav {
+   background: #94959A;
 }
 
 a{
@@ -213,13 +213,14 @@ a:hover {
    background-color: #5D1616;
 }
 
-.settings-timestamp {
-   background-color: #194819;
+.settings-timestamp.active {
+   background-color: #208424;
 }
 
 .mdi.mdi-play {
    content: url('http://i.imgur.com/ya0H2r0.png');
    width: 34px;
+   margin-left: 4px;
 }
 
 .mdi.mdi-play:active {
@@ -252,7 +253,33 @@ a:hover {
    background: rgba(171, 171, 171, 0.25);
 }
 
+.modal {
+   background: #0E0E0E;
+}
+
+.modal-yes {
+   color: #4CAF50;
+}
+
+.green {
+   color: #4CAF50;
+}
+
+.modal-yes:hover {
+   background: rgba(76,175,80,0.25);
+}
+
 .loader {
-   border-top-color: #A9A9A9;
-   border-bottom-color: #A9A9A9;
+    border-top-color: #553C67;
+    border-bottom-color: #553C67;
+}
+
+.loader:before {
+    border-top-color: #B15C42;
+    border-bottom-color: #B15C42;
+}
+
+.loader:after {
+    border-top-color: #677F59;
+    border-bottom-color: #677F59;
 }
