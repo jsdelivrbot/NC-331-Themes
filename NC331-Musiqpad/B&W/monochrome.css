@@ -97,6 +97,12 @@ a:hover {
 .btn-upvote.active {
    background: #4CAF50;
    color: #020202;
+       box-shadow: 0px 16px 20px -13px #4CAF50;
+    -webkit-transition: box-shadow 0.1s ease;
+    -moz-transition: box-shadow 0.1s ease;
+    -ms-transition: box-shadow 0.1s ease;
+    -o-transition: box-shadow 0.1s ease;
+    transition: box-shadow 0.1s ease;
 }
 
 .btn-grab {
@@ -111,6 +117,12 @@ a:hover {
 .btn-grab.active {
    background: #2196F3;
    color: #020202;
+       box-shadow: 0px 16px 20px -13px #2196F3;
+    -webkit-transition: box-shadow 0.1s ease;
+    -moz-transition: box-shadow 0.1s ease;
+    -ms-transition: box-shadow 0.1s ease;
+    -o-transition: box-shadow 0.1s ease;
+    transition: box-shadow 0.1s ease;
 }
 
 .playlists-grab .pl-grab:not(.active):hover {
@@ -121,9 +133,19 @@ a:hover {
    color: #2196F3;
 }
 
+.btn-join {
+   border-bottom: 2px solid #F46B40;
+}
+
 .btn-snooze.active {
    background: #925AFF;
    color: #020202;
+          box-shadow: 0px 16px 20px -13px #925AFF;
+    -webkit-transition: box-shadow 0.1s ease;
+    -moz-transition: box-shadow 0.1s ease;
+    -ms-transition: box-shadow 0.1s ease;
+    -o-transition: box-shadow 0.1s ease;
+    transition: box-shadow 0.1s ease;
 }
 
 .btn-snooze {
@@ -138,4 +160,68 @@ a:hover {
 .btn-downvote.active {
     color: #020202;
     background-color: #C8303E;
+    box-shadow: 0px 16px 20px -13px #C8303E;
+    -webkit-transition: box-shadow 0.1s ease;
+    -moz-transition: box-shadow 0.1s ease;
+    -ms-transition: box-shadow 0.1s ease;
+    -o-transition: box-shadow 0.1s ease;
+    transition: box-shadow 0.1s ease;
+}
+
+.greet-umsg {
+   color: #B1B1B1;
+}
+
+.tray .active {
+   color: #B1B1B1;
+}
+
+.waitlist-user:first-child {
+   background: rgba(199, 199, 199, 0.2);
+}
+
+.lib-fdr-search {
+   background: #0E0E0E;
+}
+
+.lib-sng-search {
+   background: #0E0E0E;
+}
+
+.lib-fdr {
+   background: #1B1B1B;
+}
+
+.lib-fdr.selected {
+   border-right: 3px solid #B1B1B1;
+}
+
+.nav.active {
+   border-right: 3px solid #B1B1B1;
+}
+
+.lib-sng:first-child {
+   background: rgba(173,173,173,0.2);
+}
+
+.hist-sng {
+   color: #94959A;
+}
+
+.settings-timestamp {
+   background-color: #5D1616;
+}
+
+.settings-timestamp {
+   background-color: #194819;
+}
+
+.mdi.mdi-play:active {
+   content: url('http://i.imgur.com/ya0H2r0.png');
+   width: 34px;
+}
+
+.mdi.mdi-play:active {
+   -webkit-filter: invert(100%);
+    filter: invert(100%);
 }
