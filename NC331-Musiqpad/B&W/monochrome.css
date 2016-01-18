@@ -296,3 +296,31 @@ a:hover {
 .lib-fdr.draghover {
    background: #333333;
 }
+
+.lib-sng-drop {
+       background: rgb(177, 177, 177);
+}
+
+input.ban-reason, input.edit-playlist-name {
+   background: #1E1F23;
+}
+
+#login {
+       background: #060606;
+}
+
+#creds input:focus {
+   background: #B1B1B1;
+}
+
+#creds .ctrl:hover {
+       background: rgba(171, 171, 171, 0.25);
+}
+
+#creds .controls {
+       background: #191919;
+}
+
+#register {
+    background: #060606;
+}
