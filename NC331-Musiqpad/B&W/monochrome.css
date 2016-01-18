@@ -270,16 +270,16 @@ a:hover {
 }
 
 .loader {
-    border-top-color: #553C67;
-    border-bottom-color: #553C67;
+    border-top-color: #2E173F;
+    border-bottom-color: #2E173F;
 }
 
 .loader:before {
-    border-top-color: #B15C42;
-    border-bottom-color: #B15C42;
+    border-top-color: #7A250B;
+    border-bottom-color: #7A250B;
 }
 
 .loader:after {
-    border-top-color: #677F59;
-    border-bottom-color: #677F59;
+    border-top-color: #1E4805;
+    border-bottom-color: #1E4805;
 }
