@@ -245,11 +245,7 @@ a:hover {
    background: #424242;
 }
 
-.popover.bottom .arrow {
-   background: #424242
-}
-
-.modal-ctrl:hover {
+.user-menu .modal-ctrl:hover {
    background: rgba(171, 171, 171, 0.25);
 }
 
