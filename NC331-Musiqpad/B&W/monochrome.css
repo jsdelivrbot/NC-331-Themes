@@ -216,7 +216,7 @@ a:hover {
    background-color: #194819;
 }
 
-.mdi.mdi-play:active {
+.mdi.mdi-play {
    content: url('http://i.imgur.com/ya0H2r0.png');
    width: 34px;
 }
