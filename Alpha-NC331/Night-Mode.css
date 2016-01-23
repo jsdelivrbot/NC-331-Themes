@@ -1,0 +1,639 @@
+/* animation keyframes */
+@-webkit-keyframes weather {
+    from { background-position: 0 0px; }
+    to { background-position: 0 1024px; }
+}
+@keyframes weather {
+    from { background-position: 0 0px; }
+    to { background-position: 0 1024px; }
+}
+@-webkit-keyframes weather2 {
+    from { background-position: 64px 64px; }
+    to { background-position: 64px 1088px; }
+}
+@keyframes weather2 {
+    from { background-position: 64px 64px; }
+    to { background-position: 64px 1088px; }
+}
+
+
+
+
+
+
+.mention {
+ background: linear-gradient(160deg, rgba(152, 152, 152, 0.51) , rgba(0, 0, 0, 0)) !important;
+}
+
+ 
+#messages .cm:nth-child(odd).mention {
+    background: linear-gradient(160deg, rgba(210,210,210,0.51) , rgba(0, 0, 0, 0)) !important;
+}
+
+.userDialogButtons .button {
+    background-color: #0E0E0E;
+}
+
+.userDialogInfo {
+    background:linear-gradient(160deg, rgb(2, 2, 2) , rgba(0, 0, 0, 0.3));
+}
+
+.userDialogButtons .button:hover {
+    background-color: #565656 !important;
+}
+
+.vid-hover-btn {
+    background: rgba(78,78,78,0.5) !important;
+}
+
+#img {
+    background-image:url("http://www.arcadehotel.nl/wp-content/uploads/2015/12/AH_website_Hotelnacht_151227.jpg") !important;
+}
+div#menu {
+    background-color: #929292 !important;
+    border-right:2px solid #616161; !important;
+}
+
+#progress {
+    background-color: #168E79;
+    -moz-box-shadow: 0px 4px 12px #168E79;
+    -webkit-box-shadow: 0px 4px 12px #168E79;
+    box-shadow: 0px 4px 12px #168E79;
+}
+
+.footer {
+    border-top: 2px solid #2F2F2F;
+    -moz-box-shadow: -420px -10px 70px rgba(151,151,151,0.7); 
+    -webkit-box-shadow: -420px -10px 70px rgba(151,151,151,0.7); 
+    box-shadow: -408px 3px 26px rgba(151,151,151,0.7);
+    background:url("http://i.imgur.com/1IyixL9.gif")
+}
+
+.header {
+   border-bottom: 2px solid #2F2F2F;    
+background:url("http://i.imgur.com/cNPy5Ti.gif")
+}
+
+button {
+    background: #666;
+}
+
+#logout {
+ margin-right: 13px;
+}
+
+#btn-mute {
+    background-color: #666;
+}
+
+.app-right-selector.selected {
+    background-color: rgba(129, 129, 129, 0.9);
+}
+
+.app-right-selector {
+    background-color: #020202;
+}
+
+div.notification .notif-title {
+    background-color: #959595;!important;
+}
+
+div.notification .notif-content {
+    background: rgba(18, 18, 18, 0.86) !important;
+}
+
+#ratingbuttons #wootcontainer {
+ position: relative;
+ bottom: -80px;
+ background-color: #020202;
+}
+
+#ratingbuttons #grabcontainer {
+    background-color: #020202;
+}
+
+#ratingbuttons #mehcontainer {
+    background-color: #020202;
+}
+
+.active {
+    background-color: #C0C0C0;
+}
+
+ .promote-dialog-btn.selected-rank { 
+     background: #C0C0C0;
+ }
+ 
+ #notif-promote .fa-check {
+    color: #C0C0C0;
+}
+
+
+div.menu-tile:hover {
+    background-color: rgba(145, 145, 145, 0.5) !important
+}
+
+
+#ratingbuttons #btn-woot.active {
+    background-color: #020202;
+    box-shadow: 0px 16px 20px -13px #4CAF50;
+    -webkit-transition: box-shadow 0.1s ease;
+    -moz-transition: box-shadow 0.1s ease;
+    -ms-transition: box-shadow 0.1s ease;
+    -o-transition: box-shadow 0.1s ease;
+    transition: box-shadow 0.1s ease;
+    border-top-left-radius: 5px;
+}
+
+#ratingbuttons #btn-meh.active {
+    background-color: #020202;
+    box-shadow: 0px 16px 20px -13px #F44336;
+    -webkit-transition: box-shadow 0.1s ease;
+    -moz-transition: box-shadow 0.1s ease;
+    -ms-transition: box-shadow 0.1s ease;
+    -o-transition: box-shadow 0.1s ease;
+    transition: box-shadow 0.1s ease;
+    border-top-right-radius: 5px;
+}
+
+#ratingbuttons #btn-grab.active {
+     background-color: #020202;
+     box-shadow: 0px 16px 20px -13px #2196F3;
+     -webkit-transition: box-shadow 0.1s ease;
+     -moz-transition: box-shadow 0.1s ease;
+     -ms-transition: box-shadow 0.1s ease;
+     -o-transition: box-shadow 0.1s ease;
+     transition: box-shadow 0.1s ease;
+}
+
+#app-right {
+    background: #0c0c0c;
+    box-shadow: 0px 0px 29px -3px rgba(151,151,151,0.7);
+}
+
+#room-title {
+    content:url("http://i.imgur.com/2pEEFLQ.gif") !important;
+    margin-left: 21px;
+}
+
+#notif-mute .notif-title {
+    background: #C0C0C0;
+}
+
+.mute-dialog-btn:hover {
+    background-color: #C0C0C0;
+}
+.promote-dialog-btn:hover, #notif-promote:hover #ok-btn:hover {
+    background-color: #949494;
+}
+.btn-no:hover {
+    box-shadow: inset 0 -8px 0 0 rgb(255, 68, 0);
+    background-color: #949494;
+}
+.btn-yes:hover {
+    box-shadow: inset 0 -8px 0 0 rgba(58, 255, 0, 0.63);
+    background-color: #949494;
+}
+
+#player {
+ background: 0px 0px 30px 20px rgba(151,151,151,0.7);
+}
+
+input[type=text] {
+    background: #000000;
+}
+
+.media-info>div>div {
+    background: rgba(108,108,108,0.9);
+    font-weight: bold;
+    border: 0px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    padding: 2px;
+}
+
+.notification .notif-content {
+    background-color: #170F00 !important;
+}
+
+#volumePercent {
+ background: rgba(108,108,108,0.9);
+ font-weight: bold;
+ border-radius: 5px;
+ -webkit-border-radius: 5px;
+ -moz-border-radius: 5px;
+ border: none;
+ padding: 2px;
+ right: -9px;
+ top: 15px;
+}
+
+#ratingbuttons #grab-playlists {
+    background-color: black;
+}
+
+#active-song .label, #active-song .title {
+ border-radius: 5px;
+ -webkit-border-radius: 5px;
+ -moz-border-radius: 5px;
+ border: none;
+ padding: 5px;
+ background: rgba(108,108,108,0.9);
+ font-weight: bold;
+}
+
+p.username {
+ background: rgba(108,108,108,0.9);
+ font-weight: bold;
+ margin-right: -130px;
+ margin-top: 1px;
+ border-radius: 5px;
+ -webkit-border-radius: 5px;
+ -moz-border-radius: 5px;
+ border: none;
+ padding: 2px;
+ opacity: 0px;
+}
+
+#profile .username {
+    font-weight: bold;
+     border-radius: 5px;
+ -webkit-border-radius: 5px;
+ -moz-border-radius: 5px;
+ border: none;
+  padding: 1px;
+  background: rgba(108,108,108,0.9);
+   text-align: center;
+}
+
+#level {
+    font-weight: bold;
+      border-radius: 5px;
+ -webkit-border-radius: 5px;
+ -moz-border-radius: 5px;
+ border: none;
+  background: rgba(108,108,108,0.9);
+   text-align: center;
+}
+
+#chat {
+    background-image: url("http://i.imgur.com/a3IQSsm.png");
+    background-repeat: no-repeat;
+    background-position: 5em;
+}   
+
+.cbp-spmenu-left.cbp-spmenu-open {
+    background: url("http://i.imgur.com/8tBgIPm.jpg");
+    background-repeat: no-repeat;
+    color: #1B1B1B;
+    font-weight: 900;
+    text-shadow: 0px 0px 8px white;
+    background-position: bottom;
+    background-position-x: 0px;
+}
+
+.cbp-spmenu-left {
+    background: url("http://i.imgur.com/oT9Bm0t.png");
+    background-repeat: no-repeat;
+    color: #1B1B1B;
+    font-weight: 900;
+    text-shadow: 0px 0px 8px white;
+    background-position: bottom;
+    background-position-x: 0px;
+}
+
+div.menu-tile {
+    border-bottom: none !important; 
+}
+
+#time-left {
+    background: rgba(108,108,108,0.9);
+    font-weight: bold;
+     border: 0px;
+ -webkit-border-radius: 7px;
+ -moz-border-radius: 7px;
+ border-radius: 7px;
+ top: 64px;
+ right: 415px;
+}
+.notif-title { 
+ background-color: rgba(108,108,108,0.9) !important;
+}
+ 
+#showLeft {
+  background: rgba(108,108,108,0.9);
+}
+
+.uk-link, a {
+ color: #168E79;
+}
+
+.uk-link:hover, a:hover {
+ color: #117766;
+ text-shadow: 0px 0px 7px #FFFFFF;
+}
+
+#chat .msg a, #chat .log a{
+    color: #168E79;
+}
+
+.uk-progress-bar {
+  background: #40525F;
+}
+
+.exp-meter {
+ background: rgba(78,78,78,0.84);
+ -webkit-border-radius: 7px;
+ -moz-border-radius: 7px;
+ border-radius: 7px;
+ border: 0px;
+}
+
+#profile-settings {
+ background-color: rgba(108,108,108,0.9);
+}
+
+
+/* NCS Loli Counter */
+#loli-counter {
+        position: absolute;
+    margin: 15px;
+    padding: 3px; 
+    background: rgba(0,0,0,0.6); 
+    font-size: 17px; 
+    font-family: arial, sans-serif;
+    border: 2px rgba(108,108,108,0.9);
+    border-style: solid;
+    opacity: .3;
+    box-shadow: 0px 0px 30px rgba(186, 186, 186, 0.9);
+    -moz-box-shadow: 0px 0px 30px rgba(186, 186, 186, 0.9); 
+    -webkit-box-shadow: 0px 0px 30px rgba(186, 186, 186, 0.9); 
+}
+
+.announcement {
+    background: linear-gradient(60deg, rgba(210,210,210,0.51) , rgba(0, 0, 0, 0)), url('http://i.imgur.com/SnGO7fc.png') !important;
+    background-repeat: no-repeat;
+    padding: 5px;
+    font-size: 17px;
+    font-family: Arial Black;
+    color: white;
+    border: rgba(210,210,210,0.51);
+    border-style: inset;
+    min-height: 45px;
+    word-wrap: break-word;
+    padding-right: 30px;
+}
+
+
+/*
+#ratingbuttons #btn-woot.active {
+ box-shadow: 0px 0px 30px #4CAF50;
+ -moz-box-shadow: 0px 0px 30px #4CAF50;
+ -webkit-box-shadow: 0px 0px 30px #4CAF50;
+}
+#ratingbuttons #btn-meh.active {
+ box-shadow: 0px 0px 30px #F44336;
+ -moz-box-shadow: 0px 0px 30px #F44336;
+ -webkit-box-shadow: 0px 0px 30px #F44336;
+}
+#btn-woot:active {
+ box-shadow: 0px 0px 30px #4CAF50;
+ -moz-box-shadow: 0px 0px 30px #4CAF50;
+ -webkit-box-shadow: 0px 0px 30px #4CAF50; 
+}
+#btn-meh:active {
+  box-shadow: 0px 0px 30px #F44336;
+ -moz-box-shadow: 0px 0px 30px #F44336;
+ -webkit-box-shadow: 0px 0px 30px #F44336; 
+}
+#btn-grab:active {
+  box-shadow: 0px 0px 30px #2196F3;
+ -moz-box-shadow: 0px 0px 30px #2196F3;
+ -webkit-box-shadow: 0px 0px 30px #2196F3; 
+}
+*/
+
+
+#active-song {
+ line-height: 20px;
+}
+
+#profile-data #level {
+ text-align: center;
+}
+
+#volume-settings {
+ right: 92px
+}
+
+#dj-history-button {
+ right: 275px;
+}
+
+#settings-autojoin {
+ right: 475px;
+ top: 59px;
+}
+
+.media-info {
+ margin-left: -18px;
+ margin-top: 2px;
+}
+
+#profile #exp-details {
+ border: 0px;
+ -webkit-border-radius: 7px;
+ -moz-border-radius: 7px;
+ border-radius: 7px;
+}
+
+#profile #exp-bar {
+ border: 0px;
+ -webkit-border-radius: 7px;
+ -moz-border-radius: 7px;
+ border-radius: 7px;
+}
+
+p {
+ margin: 7px;
+}
+
+#profile .experience-box {
+ right: -3px;
+}
+
+#change-username {
+ background: rgba(53,64,76,0.6);
+}
+
+input[type=password] {
+ background: rgba(53,64,76,0.6);
+}
+
+#ratingbuttons {
+    position: absolute;
+    height: 80px;
+    bottom: -90px;
+    width: 100%;
+}
+
+#settings-autojoin.disabled {
+ background-color: #5D1616;
+}
+
+#settings-autojoin.enabled {
+ background-color: #194819;
+}
+
+
+/* TEST ZONE */
+
+/* Selection Text Color */
+::selection {
+ background: #E17844;
+ color:#fff;
+ text-shadow:none
+}
+
+/* Rank thing */
+/*
+.uname.rank {
+    color: white !important;
+}
+.uname.rank-0 {
+    color: white !important;
+}
+
+.uname.rank-0 {
+}
+    .icon-4513 { background: url("http://i.imgur.com/Wx1mxBn.png")
+ } 
+
+.uname.rank-1 {
+     color: #ff007e !important;   
+}
+
+.uname.rank-2 {
+    color: #bf4080 !important;
+}
+
+.uname.rank-3 {
+    color: #d88db4 !important;
+}
+
+.uname.rank-4 {
+    color: #862d59 !important;
+}
+
+.uname.rank-6 {
+    color: #ff3333 !important;
+}
+
+.uname.rank-7 {
+    color: #ff3333 !important;
+}
+
+.uname.rank-8 {
+    color: #ff1ac4 !important;
+}
+
+.uname.rank-10 {
+    color: #660033  !important;
+}
+.icon-rank-10 {
+ background: url("http://i.imgur.com/maMEu5h.png") !important;
+}
+*/
+
+
+
+/* Snowy thing */
+.weather {
+    position: relative; overflow: hidden;
+}
+.weather:before, .weather:after {
+    content: "";
+    position: absolute; left: -50%; top: -50%; right: -50%; bottom: -50%;
+    z-index: 1;
+    pointer-events: none;
+    
+    background: transparent repeat;
+    opacity: 0.7;
+    
+    -webkit-transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+    transform: rotate(10deg);
+    
+    -webkit-animation-name: weather;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: weather;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.weather:after {
+    opacity: 0.8;
+    -webkit-animation-name: weather2;
+    animation-name: weather2;
+}
+.weather.rain:before, .weather.rain:after {
+    background-image: url(http://i.imgur.com/XTUCAz7.png);
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+}
+.weather.rain:after {
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+}
+.weather.snow:before, .weather.snow:after {
+    background-image: url(http://i.imgur.com/88JVZTb.png);
+    -webkit-animation-duration: 26s;
+    animation-duration: 26s;
+}
+.weather.snow:after {
+    -webkit-animation-duration: 34.5s;
+    animation-duration: 34.5s;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(100, 100, 100, 0.76);
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(193, 193, 193, 0.83);
+}
+
+
+
+
+
+
+/* CSS Loading Icon */
+
+.loading-anim {
+	background: #609B87;
+}
+.loading-anim::before {
+	background: #A162B7;
+}
+.loading-anim::before {
+	background: #A162B7;
+}
+.loading-anim::before {
+	background: #A162B7;
+}
+.loading-anim::before {
+	background: #A162B7;
+}
+.loading-anim::before {
+	background: #A162B7;
+}
