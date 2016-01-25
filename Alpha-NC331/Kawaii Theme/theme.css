@@ -438,3 +438,21 @@ p {
 #profile .experience-box {
  right: -3px;
 }
+
+::selection {
+ background: rgba(205,104,232,0.58);
+}
+
+/* Custom Cursor */
+
+body, #profile, #exp-details, button:disabled, {
+    cursor: url('http://vignette4.wikia.nocookie.net/love-live/images/a/ae/Ragnarok6354_-_General_Cursor_Contest_Entry.png'), auto !important;
+}
+
+button, i, #profile-settings, #showLeft {
+    cursor: url('http://vignette4.wikia.nocookie.net/love-live/images/d/da/Ragnarok6354_-_Link_Cursor_Contest_Entry.png'), auto !important;
+}
+
+input[type=text]:hover, input[type=newusername], input[type=password] {
+    cursor: url('http://vignette4.wikia.nocookie.net/love-live/images/f/fd/Text_Cursor.png'), text !important;
+}
