@@ -3,7 +3,7 @@ background-image: url('http://i.imgur.com/SFxQJMr.gif');
 }
 
 .song-progress {
-   background-color: #168E79;
+    background-color: #168E79 !important;
     -moz-box-shadow: 0px -2px 10px #168E79;
     -webkit-box-shadow: 0px -2px 10px #168E79;
     box-shadow: 0px -2px 10px #168E79;
@@ -51,6 +51,10 @@ background-image: url('http://i.imgur.com/SFxQJMr.gif');
    background: #020202;
 }
 
+.right .label {
+   color: #88898C !important;
+}
+
 .dash {
    border-bottom: 1px solid #444A59;
    background: #0E0E0E;
@@ -75,7 +79,7 @@ a{
 
 a:hover {
  color: #117766;
- text-shadow: 0px 0px 7px #FFFFFF;
+ text-shadow: 0px 0px 7px #168E79;
 }
 
 .image-toggle {
@@ -177,13 +181,18 @@ a:hover {
     transition: box-shadow 0.1s ease;
 }
 
+.playlists-grab .pl-grab-create:not(.active):hover {
+    background: rgba(33,150,243,0.25);
+}
+
 .greet-umsg {
    color: #B1B1B1;
 }
 
 .tray .active {
    color: #B1B1B1;
-   border-bottom: 3px solid #B1B1B1;
+   border-bottom: 3px solid #B1B1B1
+   background: rgba(136,136,136,0.2);
 }
 
 .waitlist-user:first-child {
@@ -208,6 +217,7 @@ a:hover {
 
 .nav.active {
    border-right: 3px solid #B1B1B1;
+   background: rgba(136,136,136,0.2);
 }
 
 .lib-sng:first-child {
@@ -321,7 +331,7 @@ input.ban-reason, input.edit-playlist-name {
 }
 
 #creds input:focus {
-   background: #B1B1B1;
+    border-bottom: 1px solid #138E79;
 }
 
 #creds .ctrl:hover {
