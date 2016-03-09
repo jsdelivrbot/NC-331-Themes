@@ -334,6 +334,18 @@ input.ban-reason, input.edit-playlist-name {
     border-bottom: 1px solid #138E79;
 }
 
+#inp-rc:focus {
+    border-bottom: 1px solid #138E79;
+}
+
+#inp-fgt-pw:focus {
+    border-bottom: 1px solid #138E79;
+}
+
+#inp-new-pw:focus {
+    border-bottom: 1px solid #138E79;
+}
+
 #creds .ctrl:hover {
        background: rgba(171, 171, 171, 0.25);
 }
