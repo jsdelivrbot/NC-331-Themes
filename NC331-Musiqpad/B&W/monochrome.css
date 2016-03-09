@@ -22,8 +22,12 @@ background-image: url('http://i.imgur.com/SFxQJMr.gif');
 }
 
 .room-greet {
-   background: rgba(169,169,169,0.2);
+   background: rgba(169,169,169,0.2) !important;
    border-left: 2px solid #B1B1B1
+}
+
+.system .umsg {
+    color: #B1B1B1;
 }
 
 .mention {
@@ -55,6 +59,10 @@ background-image: url('http://i.imgur.com/SFxQJMr.gif');
    color: #88898C !important;
 }
 
+.right .label:hover {
+   color: #ddd !important;
+}
+
 .dash {
    border-bottom: 1px solid #444A59;
    background: #0E0E0E;
@@ -66,7 +74,7 @@ background-image: url('http://i.imgur.com/SFxQJMr.gif');
 }
 
 .yt-sng {
-   background: #0E0E0E;
+   background: rgba(27,27,27,0.68);
 }
 
 .hist-sng {
@@ -191,7 +199,7 @@ a:hover {
 
 .tray .active {
    color: #B1B1B1;
-   border-bottom: 3px solid #B1B1B1
+   border-bottom: 3px solid #B1B1B1;
    background: rgba(136,136,136,0.2);
 }
 
@@ -208,11 +216,16 @@ a:hover {
 }
 
 .lib-fdr {
-   background: #1B1B1B;
+   background: rgba(27,27,27,0.68);
 }
 
 .lib-fdr.selected {
-   border-right: 3px solid #B1B1B1;
+   border-right: 3px solid #B1B1B1;   
+   background: rgba(255,255,255,0.2);
+}
+
+.lib-sng:hover {
+        background: rgba(99,99,99,0.2);
 }
 
 .nav.active {
@@ -232,27 +245,13 @@ a:hover {
    background-color: #208424;
 }
 
-.nav.btn-youtube {
-   -webkit-filter: grayscale(1);
-   filter: grayscale(1);
-}
-
-.nav.btn-youtube:active {
-   -webkit-filter: invert(100%);
-    filter: invert(100%);
-}
-
-.mdi.mdi-play {
-   content: url('http://i.imgur.com/ya0H2r0.png');
-   width: 34px;
-   margin-left: 4px;
-   -webkit-filter: grayscale(1);
-   filter: grayscale(1);
-}
-
 .cm.emote .umsg {
    color: #A526A5;
     font-weight: 700;
+}
+
+.cm.system {
+    border-left: 2px solid #B1B1B1;
 }
 
 .modal-controls {
