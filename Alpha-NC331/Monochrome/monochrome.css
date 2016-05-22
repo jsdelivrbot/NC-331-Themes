@@ -278,9 +278,10 @@ p.username {
 }
 
 #chat {
-    background-image: url("http://i.imgur.com/a3IQSsm.png");
+    background-image: url("http://i.imgur.com/1DDrkpH.png");
     background-repeat: no-repeat;
     background-position: 5em;
+    background-size: calc(100% - 95px);
 }   
 
 .cbp-spmenu-left.cbp-spmenu-open {

@@ -5,6 +5,6 @@ javascript:(function(){$('head').append('<link rel="stylesheet" href="https://ra
 
 
 MY VERSION OF THIS AWSOME THEME:
-$('head').append('<link rel="stylesheet" href="https://rawgit.com/Elitehunter47/theme/master/theme.css" type="text/css"/>'); 
+$('head').append('<link rel="stylesheet" href="https://rawgit.com/Elitehunter47/NC-331-Themes/master/Alpha-NC331/Kawaii%20Theme/theme.css" type="text/css"/>'); 
 OR BOOKMARK THIS:
-javascript:(function(){$('head').append('<link rel="stylesheet" href="https://rawgit.com/Elitehunter47/theme/master/theme.css" type="text/css"/>');}());
+javascript:(function(){$('head').append('<link rel="stylesheet" href="https://rawgit.com/Elitehunter47/NC-331-Themes/master/Alpha-NC331/Kawaii%20Theme/theme.css" type="text/css"/>');}());
