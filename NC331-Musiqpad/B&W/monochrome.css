@@ -19,7 +19,7 @@ background-image: url('http://i.imgur.com/SFxQJMr.gif');
 
 #room-bg {
   background-image: url("http://i.imgur.com/5UfrOf3.jpg") !important;
-  background-size: calc(100% - 400px) 100%;
+  background-position-x: calc(100% - 400px);
 }
 
 .room-greet {
